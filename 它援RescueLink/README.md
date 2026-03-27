@@ -1,28 +1,53 @@
 # 它援 RescueLink
 
-**它援 RescueLink** 是一个基于区块链技术、面向流浪动物救助场景的协作与可信记录工具。
+> 把碎片化的流浪动物救助，变成一个可协作、可追踪、可留痕、可激励的 case 流程。
 
-它将碎片化的流浪动物救助，变成一个结构化、透明、可协作的 case 流程。
+**它援 RescueLink** 是一个基于 **Avalanche 区块链**、面向流浪动物救助场景的 **协作、可信记录与贡献激励工具**。
 
-## 项目背景
+它以单个 **rescue case** 为核心，帮助发现人 / 救助人、志愿者、医院、寄养方、捐助者、领养人以及民间救助组织，在同一个结构化页面中协同推进救助流程，并通过关键节点留痕与存证，提升透明度、交接效率与协作基础。
 
-当前流浪动物救助高度依赖民间力量，但一次救助往往需要发现人、救助人、志愿者、医院、寄养方、捐助者、领养人以及民间救助组织等多方临时接力。
+---
 
-现实中，求助信息分散在小红书、朋友圈、微信群等多个平台，记录和凭证容易丢失，交接责任不清，导致一线救助人长期承受高强度压力，也让捐助者难以快速建立判断和信任。
+## Background
 
-## 项目做什么
+当前流浪动物救助高度依赖民间力量，但一次救助往往不是一个人就能完成的。
 
-它援 RescueLink 以单个 **rescue case** 为核心，为每个 case 提供：
+从发现、送医、筹集物资，到寄养、转运、领养与回访，通常需要发现人 / 救助人、志愿者、医院、寄养方、捐助者、领养人以及民间救助组织等多方临时接力。
 
-- 统一记录
-- 状态更新
-- 凭证上传
-- 交接确认
+但在现实中，救助过程常常面临这些问题：
+
+- 求助、进展、费用、物资和交接信息分散在小红书、朋友圈、微信群等多个平台
+- 医疗单据、付款记录、转运证明等凭证容易丢失
+- 不同参与方之间责任边界不清，交接效率低
+- 一线救助人长期承受高强度的经济和精力压力
+- 捐助者难以快速判断一个 case 的真实进展与实际缺口
+- 民间救助组织长期被高频、低标准化的协作所消耗
+
+这使得很多救助行为虽然充满善意，却仍然脆弱、低效，并且高度依赖个人持续硬撑。
+
+---
+
+## What is RescueLink?
+
+RescueLink 以单个 **rescue case** 为核心，为每一个 case 提供统一的信息入口和协作页面。
+
+每个 case 页面可包含：
+
+- 动物基础信息
+- 当前状态与救助进度
+- 已完成事项
+- 待办事项
+- 资金 / 物资 / 转运 / 寄养等缺口
+- 医疗票据、付款截图、检查报告等凭证
+- 当前负责人和参与角色
+- 关键交接记录
 - 可分享页面
 
-通过对关键节点进行留痕与存证，RescueLink 将一次原本零散、脆弱、依赖个人转发的救助，转变为一个**多方可见、责任清晰、缺口透明、凭证可查**的协作流程。
+通过对关键节点进行留痕与存证，RescueLink 将一次原本零散、脆弱、依赖个人转发和私聊维系的救助，转变为一个 **多方可见、责任清晰、缺口透明、凭证可查** 的协作流程。
 
-## 项目价值
+---
+
+## Core Value
 
 借助 RescueLink，参与者和捐助者可以更清楚地看到：
 
@@ -31,108 +56,218 @@
 - 谁在负责推进
 - 对应凭证在哪里
 
-这有助于提升透明度、降低沟通成本、增强协作效率，并为民间救助建立更稳定的支持基础。
+这有助于：
 
-## MVP 功能
+- 提升透明度
+- 降低重复沟通成本
+- 减少交接摩擦
+- 提高外部支持效率
+- 为民间救助建立更稳定的协作基础
 
-- 创建 rescue case
-- 更新 case 状态
-- 上传票据与凭证
-- 记录交接节点
-- 生成可分享页面
-- 对关键记录进行链上存证
+RescueLink 希望让每一次流浪动物救助，从“一个人在社交平台孤立求助”，变成“一次可以被看见、被接力、被追踪的协作过程”。
 
-## 为什么使用区块链
-
-区块链在本项目中主要用于记录**关键节点与关键凭证摘要**，而不是将所有信息直接上链。
-
-这样既能保留可追溯、防篡改的特点，也能降低隐私风险与实现成本。
-
-## 项目愿景
-
-它援 RescueLink 希望让每一次流浪动物救助，从“一个人在社交平台孤立求助”，变成“一次可以被看见、被接力、被追踪的协作过程”，让更多善意更容易参与进来，也让每一份贡献都不被埋没。
-
-## 项目状态
-
-Hackathon MVP / In Progress
-
-
-
-
-
-
-# 它援 RescueLink
-
-**RescueLink** is a blockchain-powered collaboration and trusted record tool for stray animal rescue.
-
-It turns fragmented rescue efforts into a structured, transparent, and collaborative case workflow.
-
-## Background
-
-Stray animal rescue often relies on grassroots efforts. A single rescue case usually involves multiple temporary participants, including the finder, rescuer, volunteers, hospitals, foster caregivers, donors, adopters, and grassroots rescue groups.
-
-In reality, rescue information is scattered across social media and private chats. Updates are fragmented, receipts and proof documents are easy to lose, and handoff responsibilities are often unclear. This creates heavy pressure for frontline rescuers, while donors struggle to quickly understand what is real, what is needed, and how they can help.
-
-## What is RescueLink?
-
-RescueLink is built around a single **rescue case**.
-
-For each case, it provides:
-- structured case records
-- status updates
-- proof and receipt uploads
-- handoff confirmations
-- a shareable public case page
-
-By preserving key milestones and proof records, RescueLink helps transform rescue from an isolated social-media plea into a visible, traceable, and collaborative workflow.
-
-## Core Value
-
-With RescueLink, participants and donors can clearly see:
-- what has already been done
-- what is still needed
-- who is currently responsible
-- where the supporting proof is
-
-This improves transparency, reduces coordination friction, and makes it easier for more people to step in and help.
+---
 
 ## MVP Features
 
-- Create a rescue case
-- Update case status
-- Upload proof documents and receipts
-- Track responsibilities and handoffs
-- Generate a shareable case page
-- Record key milestones on-chain
+### 1. Case Creation
+- 创建 rescue case
+- 填写动物基础信息、发现地点、紧急程度
+- 上传初始图片 / 视频
 
-## Why Blockchain?
+### 2. Case Status Tracking
+- 展示当前状态
+- 记录已完成事项
+- 展示待办事项
+- 标记当前缺口（资金 / 物资 / 转运 / 寄养）
 
-Blockchain is used to preserve **key case milestones and proof hashes**, rather than storing everything on-chain.
+### 3. Proof Upload
+- 上传医疗单据
+- 上传检查报告
+- 上传付款截图
+- 上传物资接收记录
 
-This helps ensure:
-- tamper-resistant records
-- traceable milestones
-- clearer accountability
-- stronger trust foundation for collaboration
+### 4. Role Collaboration
+- 标记参与角色
+- 指定当前负责人
+- 记录关键交接节点
 
-## Vision
+### 5. Shareable Case Page
+- 生成对外可分享页面
+- 便于在社交平台传播和外部查看 case 进展
 
-RescueLink aims to make every rescue effort more visible, more collaborative, and easier to support.
+### 6. On-chain Record
+- 对关键节点与关键凭证摘要进行链上存证
+- 保留可追溯、防篡改的记录基础
 
-Instead of leaving rescuers to struggle alone across scattered platforms, RescueLink creates a shared workflow where kindness can be seen, responsibilities can be tracked, and every contribution can be meaningfully recorded.
+---
+
+## Incentive Mechanism
+
+它援 RescueLink 的激励机制不是为了投机，也不是把救助行为变成金融化收益工具，而是为了 **让贡献被记录、让参与有反馈、让协作更可持续**。
+
+在流浪动物救助中，很多关键行动本身没有直接回报，但却非常重要，例如：
+
+- 发起 case
+- 协助送医
+- 捐助医疗费用
+- 捐赠物资
+- 承担临时寄养
+- 协助转运
+- 帮助扩散
+- 完成交接确认
+- 推动领养
+- 完成领养后回访
+
+RescueLink 希望把这些原本容易被忽略的帮助结构化记录下来，并通过轻量的激励机制进行可视化反馈，例如：
+
+- 贡献记录
+- 角色标签
+- 贡献值累计
+- 徽章 / 等级
+- 长期参与档案
+- 志愿者信誉标识
+
+这样做的目的包括：
+
+- 让参与者感受到自己的帮助被看见
+- 鼓励更多人持续参与送医、转运、寄养、扩散等具体行动
+- 识别长期稳定、履约良好的志愿者和合作方
+- 为未来资源匹配、合作联动与社区治理提供基础
+
+在 MVP 阶段，激励机制以 **贡献可视化** 为主，暂不引入复杂代币经济模型，也不将其设计为直接可提现的收益系统。
+
+---
+
+## Volunteer Credit / Campus Collaboration
+
+RescueLink 也希望探索与高校公益实践、青年志愿服务体系的连接可能。
+
+在部分高校或合作场景下，学生志愿服务本身可能与以下机制存在衔接空间：
+
+- 公益时长记录
+- 志愿者认证
+- 社会实践证明
+- 第二课堂积分
+- 志愿服务学分 / 德育学分
+
+基于这一点，RescueLink 未来可以支持：
+
+- 记录大学生在 rescue case 中的具体志愿行为
+- 生成可核验的参与记录或志愿证明
+- 为校园动物救助社团、青年志愿者组织提供结构化项目记录
+- 作为高校公益合作中的轻量协作工具
+
+例如，学生可以通过平台认领转运、信息整理、物资协调、线下陪诊、寄养协助、领养宣传等任务，并将相应参与记录沉淀为可追踪的公益参与轨迹。
+
+这不仅有助于减轻民间救助中的人力压力，也可能为更多大学生提供一个低门槛进入真实公益协作的入口。
+
+> 注：具体是否能兑换学分、时长或正式志愿认证，取决于不同学校和合作机构的具体制度安排。RescueLink 提供的是可记录、可核验、可对接的基础能力。
+
+---
+
+## Why Avalanche?
+
+RescueLink 使用 **Avalanche 区块链** 对救助过程中的关键节点和关键凭证摘要进行存证，而不是将所有救助信息直接上链。
+
+适合上链的内容包括：
+
+- case 创建时间与唯一标识
+- 状态更新记录摘要
+- 凭证文件哈希
+- 关键交接确认记录
+- 结案状态记录
+
+不适合直接上链的内容包括：
+
+- 大量图片 / 视频原文件
+- 敏感个人信息
+- 高频修改的详细文本内容
+
+这种设计可以在控制隐私风险和实现成本的同时，保留以下价值：
+
+- 可追溯
+- 防篡改
+- 多方可核验
+- 为协作建立更稳定的信任基础
+
+---
+
+## Target Users
+
+### Core Users
+- 发现人 / 救助人
+- 民间救助组织
+
+### Supporting Participants
+- 志愿者
+- 医院 / 宠物诊所
+- 寄养方
+- 捐助者
+- 领养人
+- 校园动物保护社团 / 青年志愿者组织
+
+---
+
+## User Flow
+
+基础流程示意：
+
+发现人 / 救助人创建 case  
+→ 上传基础信息和图片  
+→ 发起需求（送医 / 寄养 / 资金 / 物资 / 转运）  
+→ 多方参与者认领任务或补充支持  
+→ 上传进展与凭证  
+→ 完成交接确认  
+→ 持续更新至寄养 / 领养 / 结案
+
+---
 
 ## Future Work
 
-- contribution visualization
-- volunteer reputation system
-- organization dashboard
-- partner integrations with clinics and pet stores
-- foster and adoption follow-up records
+- 志愿者等级与徽章系统
+- 民间组织信誉档案
+- 校园公益合作模块
+- 品牌 / 医院 / 宠物门店合作接口
+- 物资捐赠与物流协同
+- 领养后回访记录
+- 贡献者个人主页
+- 与社交平台的轻量分享联动
+- 面向多 case 的组织后台管理能力
+
+---
+
+## Vision
+
+它援 RescueLink 希望让每一次流浪动物救助，从“一个人的孤立求助”，变成“一次多方参与、责任清晰、贡献可见的协作过程”。
+
+它不只是帮助捐助者看见善意去了哪里，也帮助救助人不再独自承担全部压力；不只是记录一次次救助发生了什么，也希望让那些送医、转运、寄养、扩散、回访的具体行动不再被埋没。
+
+通过结构化协作、可信记录与轻量激励，RescueLink 希望让更多人更容易参与真实救助，也让每一份善意都更有机会真正接住一个生命。
+
+---
+
+## Status
+
+**Hackathon MVP / In Progress**
+
+---
 
 ## Tech Stack
 
 _TBD_
 
-## Status
+Suggested directions:
+- Frontend: React / Next.js
+- Backend: Node.js / Supabase / Firebase
+- Storage: IPFS / cloud storage
+- Smart Contract: Solidity
+- Chain: Avalanche
+- Network: Avalanche Fuji Testnet
+- Wallet: MetaMask or other EVM-compatible wallets
 
-Hackathon MVP / In Progress
+---
+
+## One-line Summary
+
+**它援 RescueLink：基于 Avalanche，把碎片化的流浪动物救助变成一个可协作、可追踪、可留痕、可激励的 case 流程。**
